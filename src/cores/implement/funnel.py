@@ -1,0 +1,1 @@
+from .._impl.funnel import FunnelCore as Core
