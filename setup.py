@@ -7,19 +7,20 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="pypelineer",  # Replace with the name of your package
-    version="0.0.1",  # Update this version as necessary
+    version="0.0.4",  # Update this version as necessary
     author="Sadig Akhund",  # Replace with your name
     author_email="sadigaxund@gmail.com",  # Replace with your email
     description="Simplistic library for building pipelines efficiently and fast.",  # A short summary of your package
     long_description=long_description,  # This is your README file content
     long_description_content_type="text/markdown",  # Use 'text/markdown' for Markdown files
     url="https://github.com/sadigaxund/pypeliner",  # URL of your package's homepage
-    packages=find_packages(),  # Automatically find all packages in your project
+    packages=find_packages(include=['pypelineer', 'pypelineer.*']),  # Automatically find all packages in your project
     include_package_data=True,  # Include non-Python files specified in MANIFEST.in
     install_requires=[
         # List of dependencies your package requires (e.g. 'requests>=2.20.0')
     ],
     classifiers=[
+        # 'Development Status :: 5 - Production/Stable',
         "Programming Language :: Python :: 3",  # Indicate supported versions
         "License :: OSI Approved :: Apache Software License",  # Indicate license
         "Operating System :: OS Independent",  # Indicate compatibility
