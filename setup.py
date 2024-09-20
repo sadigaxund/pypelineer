@@ -28,7 +28,7 @@ setup(
     keywords="your keywords here",  # Add relevant keywords to help users find your package
     project_urls={  # Additional URLs relevant to your project
         "Bug Tracker": "https://github.com/sadigaxund/pypeliner/issues",
-        "Documentation": "https://github.com/sadigaxund/pypeliner/README.md",  # If you have documentation
-        "Source Code": "https://github.com/sadigaxund/pypeliner/src",
+        "Documentation": "https://github.com/sadigaxund/pypeliner/blob/main/README.md",  # If you have documentation
+        "Source Code": "https://github.com/sadigaxund/pypeliner",
     },
 )
