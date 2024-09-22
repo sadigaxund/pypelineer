@@ -23,12 +23,11 @@ class ProcessMetaCore(AbstractMetadata):
         accumulative = None
         for key in dct.copy():
             attr = dct[key]
+            
             # Get those methods that are marked as processor
             if accumulative == None and isinstance(attr, MultiFunction):
                 accumulative = attr
-                
-            # Clean up the rest of the class namespace
-            if key not in ['__module__', '__qualname__', '__class__']:
+                # Remove accumulated properties from namespace
                 del dct[key]
                 
         # Add newly formed accumulative processor as attribute
