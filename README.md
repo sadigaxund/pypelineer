@@ -40,7 +40,7 @@ We welcome contributions to Pypelineer! If you would like to contribute, please 
 6. Please ensure your code adheres to the existing style and includes tests where applicable.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Apache 2.0. See the [LICENSE](https://github.com/sadigaxund/pypelineer/blob/main/LICENSE) file for more details.
 
 
 
