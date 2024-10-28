@@ -12,6 +12,8 @@ dist/*
 # Virtual Environments
 /venv*
 venv*
+/testenv*
+testenv*
 
 # Environment files
 .env

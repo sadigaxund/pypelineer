@@ -26,7 +26,7 @@ setup(
         "Operating System :: OS Independent",  # Indicate compatibility
     ],
     python_requires=">=3.8",  # Minimum Python version
-    keywords="your keywords here",  # Add relevant keywords to help users find your package
+    keywords="pipeline job task etl extract transform load process",  # Add relevant keywords to help users find your package
     project_urls={  # Additional URLs relevant to your project
         "Bug Tracker": "https://github.com/sadigaxund/pypeliner/issues",
         "Documentation": "https://github.com/sadigaxund/pypeliner/blob/main/README.md",  # If you have documentation
