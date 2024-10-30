@@ -19,10 +19,6 @@ PG_PARAMS = {
     "password": os.getenv("POSTGRES_PASS")
 }
 
-'''
-    www.youtube.com/@Pypelineer
-'''
-
 SELECT_QUERY = 'SELECT * FROM employees ORDER BY id ASC'
 
 class ReadFromPostgres_v1(IngressCore, Type=IngressType.INPUT):
